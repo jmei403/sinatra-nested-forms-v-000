@@ -3,8 +3,8 @@ require './environment'
 module FormsLab
   class App < Sinatra::Base
 
-    get '/pirates' do
-      erb :root
+    get '/' do
+      erb :pirates/new
     end
 
     post '/pirates' do
