@@ -4,7 +4,7 @@ module FormsLab
   class App < Sinatra::Base
 
     # code other routes/actions here
-    get '/pirates' do
+    post '/pirates' do
       erb :new
     end
   end
